@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nails by Ju - Manicure e Nail Art</title>
+
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+
+  <!-- CSS próprio -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ========== CABEÇALHO / NAVEGAÇÃO ========== -->
+  <header>
+    <nav class="navbar navbar-expand-lg" aria-label="Navegação principal">
+      <div class="container">
+        <a class="navbar-brand logo-nome" href="#">💅 Nails by Ju</a>
+
+        <!-- Botão hambúrguer para mobile -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#menuNav"
+          aria-controls="menuNav"
+          aria-expanded="false"
+          aria-label="Abrir menu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Links de navegação -->
+        <div class="collapse navbar-collapse" id="menuNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#sobre">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#servicos">Serviços</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#perguntas">Dúvidas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contato">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ========== SEÇÃO PRINCIPAL (HERO) ========== -->
+  <main>
+    <section class="hero" aria-label="Apresentação">
+      <div class="container text-center">
+        <h1>Unhas perfeitas para o seu dia a dia</h1>
+        <p class="subtitulo">
+          Atendimento personalizado, produtos de qualidade e muito carinho em cada detalhe.
+        </p>
+        <a href="#contato" class="btn btn-hero">Agendar agora</a>
+      </div>
+    </section>
+
+    <!-- ========== SOBRE ========== -->
+    <section id="sobre" class="secao-sobre">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <!-- Imagem ilustrativa (placeholder colorido) -->
+            <div class="imagem-sobre" role="img" aria-label="Juliana sorrindo em seu espaço de atendimento"></div>
+          </div>
+          <div class="col-md-6">
+            <h2>Olá, eu sou a Juliana!</h2>
+            <p>
+              Sou manicure há mais de 8 anos e amo o que faço. Trabalho em estúdio próprio, com
+              hora marcada, para garantir que você tenha uma experiência tranquila e sem pressa.
+            </p>
+            <p>
+              Uso produtos de primeira qualidade, com foco em saúde das unhas e durabilidade.
+              Cada cliente é atendida com atenção individual — porque unhas bonitas combinam com
+              você do seu jeito.
+            </p>
+            <ul class="lista-diferenciais">
+              <li>✔ Ambiente higienizado e climatizado</li>
+              <li>✔ Materiais descartáveis</li>
+              <li>✔ Produtos premium nacionais e importados</li>
+              <li>✔ Atendimento com hora marcada</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SERVIÇOS ========== -->
+    <section id="servicos" class="secao-servicos">
+      <div class="container">
+        <h2 class="text-center titulo-secao">Serviços</h2>
+        <p class="text-center subtitulo-secao">
+          Confira o que ofereço e escolha o que combina com você
+        </p>
+
+        <div class="row g-4">
+
+          <!-- Card 1 -->
+          <div class="col-sm-6 col-lg-3">
+            <article class="card card-servico h-100">
+              <div class="card-body text-center">
+                <div class="icone-servico" aria-hidden="true">💅</div>
+                <h3 class="card-title">Manicure simples</h3>
+                <p class="card-text">Cutícula, lixamento e esmalte comum.</p>
+                <p class="preco">R$ 35</p>
+              </div>
+            </article>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="col-sm-6 col-lg-3">
+            <article class="card card-servico h-100">
+              <div class="card-body text-center">
+                <div class="icone-servico" aria-hidden="true">✨</div>
+                <h3 class="card-title">Esmaltação em gel</h3>
+                <p class="card-text">Duração de até 3 semanas com acabamento brilhante.</p>
+                <p class="preco">R$ 70</p>
+              </div>
+            </article>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col-sm-6 col-lg-3">
+            <article class="card card-servico h-100">
+              <div class="card-body text-center">
+                <div class="icone-servico" aria-hidden="true">🎨</div>
+                <h3 class="card-title">Nail Art</h3>
+                <p class="card-text">Desenhos, degradê, pedrinhas e decorações personalizadas.</p>
+                <p class="preco">a partir de R$ 15 por unha</p>
+              </div>
+            </article>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="col-sm-6 col-lg-3">
+            <article class="card card-servico h-100">
+              <div class="card-body text-center">
+                <div class="icone-servico" aria-hidden="true">🦶</div>
+                <h3 class="card-title">Pedicure completa</h3>
+                <p class="card-text">Tratamento dos pés com esfoliação, cutícula e esmalte.</p>
+                <p class="preco">R$ 55</p>
+              </div>
+            </article>
+          </div>
+
+        </div><!-- /row -->
+
+        <!-- Botão "ver mais" com JavaScript -->
+        <div class="text-center mt-4">
+          <button class="btn btn-ver-mais" id="btnServicos" aria-expanded="false">
+            Ver mais serviços ▼
+          </button>
+        </div>
+
+        <!-- Serviços extras (ocultos inicialmente) -->
+        <div id="servicosExtras" class="row g-4 mt-2" hidden>
+
+          <div class="col-sm-6 col-lg-4">
+            <article class="card card-servico h-100">
+              <div class="card-body text-center">
+                <div class="icone-servico" aria-hidden="true">💎</div>
+                <h3 class="card-title">Blindagem de unhas</h3>
+                <p class="card-text">Fortalecimento com fibra de vidro ou gel.</p>
+                <p class="preco">R$ 90</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-sm-6 col-lg-4">
+            <article class="card card-servico h-100">
+              <div class="card-body text-center">
+                <div class="icone-servico" aria-hidden="true">🌸</div>
+                <h3 class="card-title">Banho de parafina</h3>
+                <p class="card-text">Hidratação profunda para mãos e pés.</p>
+                <p class="preco">R$ 40</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-sm-6 col-lg-4">
+            <article class="card card-servico h-100">
+              <div class="card-body text-center">
+                <div class="icone-servico" aria-hidden="true">👰</div>
+                <h3 class="card-title">Pacote noiva</h3>
+                <p class="card-text">Mãos + pés + nail art especial para o grande dia.</p>
+                <p class="preco">R$ 250</p>
+              </div>
+            </article>
+          </div>
+
+        </div><!-- /servicosExtras -->
+
+      </div><!-- /container -->
+    </section>
+
+    <!-- ========== PERGUNTAS FREQUENTES ========== -->
+    <section id="perguntas" class="secao-perguntas">
+      <div class="container">
+        <h2 class="text-center titulo-secao">Perguntas frequentes</h2>
+
+        <div class="lista-perguntas">
+
+          <div class="pergunta-item">
+            <button
+              class="btn-pergunta"
+              aria-expanded="false"
+              aria-controls="resp1"
+            >
+              Preciso agendar com antecedência?
+            </button>
+            <div class="resposta" id="resp1" hidden>
+              <p>
+                Sim! O atendimento é exclusivamente com hora marcada. Isso garante que você não fique
+                esperando e tenha toda a atenção durante o seu atendimento.
+              </p>
+            </div>
+          </div>
+
+          <div class="pergunta-item">
+            <button
+              class="btn-pergunta"
+              aria-expanded="false"
+              aria-controls="resp2"
+            >
+              Qual é a duração média do atendimento?
+            </button>
+            <div class="resposta" id="resp2" hidden>
+              <p>
+                Manicure simples leva em média 45 minutos. Esmaltação em gel pode levar até 1h30.
+                Nail art e outros serviços variam conforme a complexidade.
+              </p>
+            </div>
+          </div>
+
+          <div class="pergunta-item">
+            <button
+              class="btn-pergunta"
+              aria-expanded="false"
+              aria-controls="resp3"
+            >
+              Vocês aceitam cartão?
+            </button>
+            <div class="resposta" id="resp3" hidden>
+              <p>
+                Aceito Pix, dinheiro e cartão de débito. Cartão de crédito somente à vista.
+              </p>
+            </div>
+          </div>
+
+          <div class="pergunta-item">
+            <button
+              class="btn-pergunta"
+              aria-expanded="false"
+              aria-controls="resp4"
+            >
+              Os materiais são descartáveis?
+            </button>
+            <div class="resposta" id="resp4" hidden>
+              <p>
+                Sim! Lixas, palitos e outros materiais de uso individual são descartados após cada
+                atendimento. Os alicates e espátulas passam por esterilização em autoclave.
+              </p>
+            </div>
+          </div>
+
+        </div><!-- /lista-perguntas -->
+      </div>
+    </section>
+
+    <!-- ========== CONTATO ========== -->
+    <section id="contato" class="secao-contato">
+      <div class="container">
+        <h2 class="text-center titulo-secao">Entre em contato</h2>
+        <p class="text-center subtitulo-secao">
+          Mande uma mensagem ou venha me visitar!
+        </p>
+
+        <div class="row g-4 justify-content-center">
+
+          <!-- Formulário de contato -->
+          <div class="col-md-6">
+            <form class="formulario-contato" novalidate>
+              <div class="mb-3">
+                <label for="nome" class="form-label">Seu nome</label>
+                <input
+                  type="text"
+                  id="nome"
+                  name="nome"
+                  class="form-control"
+                  placeholder="Ex: Ana Clara"
+                  required
+                  aria-required="true"
+                />
+              </div>
+
+              <div class="mb-3">
+                <label for="telefone" class="form-label">WhatsApp</label>
+                <input
+                  type="tel"
+                  id="telefone"
+                  name="telefone"
+                  class="form-control"
+                  placeholder="(61) 99999-9999"
+                  required
+                  aria-required="true"
+                />
+              </div>
+
+              <div class="mb-3">
+                <label for="servico" class="form-label">Serviço desejado</label>
+                <select id="servico" name="servico" class="form-select">
+                  <option value="">Selecione...</option>
+                  <option value="manicure">Manicure simples</option>
+                  <option value="gel">Esmaltação em gel</option>
+                  <option value="nailart">Nail Art</option>
+                  <option value="pedicure">Pedicure completa</option>
+                  <option value="outro">Outro</option>
+                </select>
+              </div>
+
+              <div class="mb-3">
+                <label for="mensagem" class="form-label">Mensagem (opcional)</label>
+                <textarea
+                  id="mensagem"
+                  name="mensagem"
+                  class="form-control"
+                  rows="3"
+                  placeholder="Escreva algo se quiser..."
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-enviar w-100" id="btnEnviar">
+                Enviar mensagem
+              </button>
+
+              <!-- Mensagem de confirmação (aparece via JS) -->
+              <div id="msgConfirmacao" class="alerta-confirmacao" hidden role="alert" aria-live="polite">
+                ✅ Mensagem enviada! Em breve entro em contato pelo seu WhatsApp.
+              </div>
+            </form>
+          </div>
+
+          <!-- Informações de contato -->
+          <div class="col-md-5 offset-md-1">
+            <div class="info-contato">
+              <h3>Onde me encontrar</h3>
+              <ul class="lista-info">
+                <li>
+                  <span aria-hidden="true">📍</span>
+                  <span> Ceilândia Norte, Brasilia - DF</span>
+                </li>
+                <li>
+                  <span aria-hidden="true">📱</span>
+                  <a href="https://wa.me/5561999999999" aria-label="Enviar mensagem no WhatsApp">
+                    (61) 99999-9999
+                  </a>
+                </li>
+                <li>
+                  <span aria-hidden="true">📸</span>
+                  <a href="#" aria-label="Instagram @nailsbyju">
+                    @nailsbyju
+                  </a>
+                </li>
+                <li>
+                  <span aria-hidden="true">🕐</span>
+                  <span>Segunda a sábado, das 9h às 19h</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== RODAPÉ ========== -->
+  <footer class="rodape">
+    <div class="container text-center">
+      <p>💅 <strong>Nails by Ju</strong> — Manicure e Nail Art</p>
+      <p class="rodape-sub">Feito com carinho por Davi/Daniel &copy; 2026</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+  ></script>
+
+  <!-- JavaScript próprio -->
+  <script src="js/script.js"></script>
+</body>
+</html>
