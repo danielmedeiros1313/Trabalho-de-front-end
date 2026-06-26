@@ -84,7 +84,7 @@ Não usamos Bootstrap para substituir nosso CSS — ele foi complementar.
 
 ## Links
 
-- Link do repositório: *(preencher após publicar no GitHub)*
+- Link do repositório: https://github.com/danielmedeiros1313/Trabalho-de-front-end
 - Link do site publicado: https://danielmedeiros1313.github.io/Trabalho-de-front-end/
 
 ## Contribuição dos integrantes
