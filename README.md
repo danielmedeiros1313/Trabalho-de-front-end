@@ -2,8 +2,8 @@
 
 ## Integrantes da dupla
 
-- Nome completo do integrante 1
-- Nome completo do integrante 2
+- Davi da Silva Rocha
+- Daniel Sousa Medeiros
 
 ## Descrição do caso escolhido
 
@@ -89,5 +89,5 @@ Não usamos Bootstrap para substituir nosso CSS — ele foi complementar.
 
 ## Contribuição dos integrantes
 
-- **Integrante 1**: estrutura HTML, semântica e organização das seções
-- **Integrante 2**: CSS (estilização, responsividade e paleta de cores) e JavaScript
+- Davi da Silva Rocha: estrutura HTML, semântica e organização das seções
+- Daniel Sousa Medeiros: CSS (estilização, responsividade e paleta de cores) e JavaScript
